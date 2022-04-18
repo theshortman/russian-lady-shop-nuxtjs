@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheCart.vue renders correctly 1`] = `
+"<div class=\\"list-group mb-3\\"><a class=\\"list-group-item text-reset\\">
+    <div class=\\"list-group-item-heading\\"><span class=\\"text-danger\\">КОРЗИНА</span></div>
+    <div class=\\"list-group-item-text\\">Пока пусто!</div>
+  </a></div>"
+`;

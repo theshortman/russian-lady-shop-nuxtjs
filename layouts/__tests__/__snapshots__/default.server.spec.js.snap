@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly default layout 1`] = `
+"<div data-server-rendered=\\"true\\"><div class=\\"border-bottom text-danger text-center px-2\\">
+    Магазин закрыт. Спасибо всем, кто у нас покупал.
+  </div> <TheNavbar></TheNavbar> <div class=\\"container-lg mb-5\\"><div class=\\"row\\"><div class=\\"col-md-4 col-lg-3\\"><TheCart></TheCart> <div><CategoryList categories=\\"\\"></CategoryList></div></div> <div class=\\"col-md-8 col-lg-9\\"><Nuxt></Nuxt></div></div></div></div>"
+`;

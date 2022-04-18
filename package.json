@@ -1,0 +1,31 @@
+{
+  "name": "russian-lady-shop-client",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test:e2e": "nightwatch --config e2e/nightwatch.conf.js --env firefox",
+    "test:integration": "jest --testEnvironment node --forceExit server.spec.js",
+    "test:unit": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7"
+  },
+  "devDependencies": {
+    "@vue/server-test-utils": "^1.2.1",
+    "@vue/test-utils": "^1.2.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^27.0.5",
+    "eslint-config-prettier": "^8.3.0",
+    "geckodriver": "^2.0.4",
+    "jest": "^27.0.5",
+    "nightwatch": "^1.7.11",
+    "prettier": "^2.3.2",
+    "vue-jest": "^3.0.4"
+  }
+}
